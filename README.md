@@ -1,0 +1,7 @@
+# azusadesignersdk
+AzusaDesignerのSDKと関連ドキュメントを公開するためのプロジェクトです。
+ここで公開しているものに、AzusaDesigner本体のソースコードは含まれません。
+（AzusaDesigner本体はプロプライエタリです）
+
+ドキュメントは、Wikiを利用して公開します。
+その他も、順次ぼちぼち整備予定です。
