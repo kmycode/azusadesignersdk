@@ -9,7 +9,8 @@ class PluginMain : public IPluginMain
 
 public:
 	PluginMain();
-	void testMethod();
+	void initialize();
+	void setGlobalManager(IGlobalManager* globalManager);
 };
 
 #endif // AZUSADESIGNERSDK_H

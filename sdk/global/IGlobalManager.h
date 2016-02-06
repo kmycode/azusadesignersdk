@@ -9,7 +9,7 @@ public:
 	explicit IGlobalManager() {}
 
 	virtual AzusaDesignerVersion applicationVersion() = 0;
-	virtual QString applicationName() = 0;
+	virtual const char* applicationName() = 0;
 };
 
 #endif // IGLOBALMANAGER_H

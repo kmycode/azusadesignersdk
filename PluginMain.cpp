@@ -1,6 +1,4 @@
 #include "PluginMain.h"
-#include <QMessageBox>
-
 #include "sdk/type.h"
 
 
@@ -11,9 +9,15 @@ extern "C" AZUSADESIGNERSDKSHARED_EXPORT void* pluginMainInstance()
 
 PluginMain::PluginMain()
 {
+
 }
 
-void PluginMain::testMethod()
+void PluginMain::initialize()
 {
-	QMessageBox::information(0, "Test", "Message", QMessageBox::Ok);
+
+}
+
+void PluginMain::setGlobalManager(IGlobalManager *globalManager)
+{
+
 }

@@ -1,10 +1,11 @@
 #ifndef TYPE_H
 #define TYPE_H
 
+// SDK version
 #define AZUSADESIGNERSDK_VERSION 1
 
 /*
- * AzusaDesignerのバージョン番号
+ * AzusaDesigner version
  */
 struct AzusaDesignerVersion {
 	int major;
