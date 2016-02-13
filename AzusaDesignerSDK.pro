@@ -23,7 +23,9 @@ HEADERS +=\
     sdk/global/IPluginManager.h \
     sdk/global/IPlugin.h \
     sdk/global/IPluginMain.h \
-    sdk/type.h
+    sdk/type.h \
+    sdk/model/feature/IAction.h \
+    sdk/model/feature/IActionManager.h
 
 unix {
     target.path = /usr/lib
